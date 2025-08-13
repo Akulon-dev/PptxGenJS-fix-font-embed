@@ -1876,7 +1876,7 @@ export interface IPresentationProps extends PresentationProps {
 
 export interface AddFontProps {
 	typeface: string
-	fontBlob: Blob
+	fontBlob: Blob | ArrayBuffer
 }
 
 export interface FontInfo extends AddFontProps {
